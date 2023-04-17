@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import Profile from './android/app/screens/Profile';
+import LoginRequired from './android/app/screens/LoginRequired';
 
 function App() {
   return (
     <View>
-      <Profile/>
+      <LoginRequired/>
     </View>
   )
 }
